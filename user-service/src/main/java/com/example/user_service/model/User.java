@@ -12,7 +12,6 @@ import java.util.List;
 @Table(name = "users")
 public class User {
 
-    // ✅ Manually Added Getters and Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -29,9 +28,37 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
+    @ElementCollection(targetClass = Account.class)
+    @Enumerated(EnumType.STRING)
+    @Column(name = "account")
     private List<Account> accounts;
 
+    // Getters
+    public Long getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public Role getRole() {
+        return role;
+    }
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
+
+    // Setters
     public void setId(Long id) {
         this.id = id;
     }
