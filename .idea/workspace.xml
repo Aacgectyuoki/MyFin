@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdd26b1a-f8bf-4c14-86b7-6c909b40fea1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/account-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/example/account_service/AccountServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/main/java/com/example/account_service/controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account-service/src/test/java/com/example/account_service/AccountServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/example/eureka_server/EurekaServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server/src/test/java/com/example/eureka_server/EurekaServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/src/main/java/com/example/loan_service/LoanServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loan-service/src/test/java/com/example/loan_service/LoanServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/main/java/com/example/transaction_service/TransactionServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transaction-service/src/test/java/com/example/transaction_service/TransactionServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/example/user_service/UserServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/example/account_service/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/model/AccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/example/account_service/model/AccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/account-service/src/main/java/com/example/account_service/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/MyFin/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/example/user_service/service/UserService.java" afterDir="false" />
-    </list>
+    <list default="true" id="cdd26b1a-f8bf-4c14-86b7-6c909b40fea1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +48,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/aacgectyuoki/Desktop/MyFin/account-service/src/main/java/com/example/account_service/service",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
