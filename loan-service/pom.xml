@@ -81,6 +81,12 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Kafka (for messaging) -->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
+
 		<!-- Testing -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
