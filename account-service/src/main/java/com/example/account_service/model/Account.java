@@ -12,13 +12,15 @@ import java.math.BigDecimal;
 @Setter
 public class Account {
 
-    // Getters & Setters
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(unique = true, nullable = false)
     private String accountNumber;
+
+    @Column(nullable = false)
+    private String name;
 
     @Column(nullable = false)
     private BigDecimal balance;
@@ -29,4 +31,40 @@ public class Account {
 
     @Column(nullable = false)
     private Long userId; // Store userId instead of full User object
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public AccountType getType() {
+        return accountType;
+    }
+
+    public void setType(AccountType accountType) {
+        this.accountType = accountType;
+    }
+
+    public BigDecimal getBalance() {
+        return balance;
+    }
+
+    public void setBalance(BigDecimal balance) {
+        this.balance = balance;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
 }

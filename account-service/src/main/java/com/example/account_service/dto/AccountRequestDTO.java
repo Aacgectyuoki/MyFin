@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @Data
 public class AccountRequestDTO {
     private String accountNumber;
+    private String name; // Added the missing 'name' field
     private BigDecimal balance;
     private AccountType accountType;
     private Long userId;
