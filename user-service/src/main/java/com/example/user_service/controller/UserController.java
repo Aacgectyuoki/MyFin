@@ -1,8 +1,10 @@
 package com.example.user_service.controller;
 
+import com.example.user_service.dto.UserRequest;
 import com.example.user_service.model.User;
 import com.example.user_service.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -31,9 +33,16 @@ public class UserController {
                 .orElseGet(() -> ResponseEntity.notFound().build());
     }
 
-    @PostMapping
-    public ResponseEntity<User> createUser(@RequestBody User user) {
-        return ResponseEntity.ok(userService.createUser(user));
+    @PostMapping("/register")
+    public ResponseEntity<String> registerUser(@RequestBody UserRequest userRequest) {
+        // Registration logic
+        return ResponseEntity.status(HttpStatus.CREATED).body("User registered successfully");
+    }
+
+    @PostMapping("/create")
+    public ResponseEntity<String> createUser(@RequestBody User user) {
+        // Another logic
+        return ResponseEntity.status(HttpStatus.CREATED).body("User created successfully");
     }
 
 }
